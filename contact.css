@@ -1,0 +1,42 @@
+/* textarea {
+  width: 10%;
+  height: 20%;
+} */
+.vertical-center {
+  /* margin: 0; */
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  transform: translateY(-50%);
+}
+
+.inputglare{
+  transition: 0.2s ease-in-out;
+}
+
+.inputglare:hover{
+  border: 2px solid rgb(27, 36, 48);
+  box-shadow: 3px 3px 3px 3px #888888;
+  border-radius: 3px 3px 3px 3px;
+}
+  .inputglare:focus{
+    box-shadow: 3px 3px 3px 3px #888888;
+    border-radius: 3px 3px 3px 3px;
+}
+.fancybutton{
+  border: 0px;
+  color: white;
+  height: 5%;
+  width: 15%;
+  background: linear-gradient(to right, #0000ff 35%, #00ffff 100%);
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.fancybutton:hover{
+  box-shadow: 3px 3px 3px 3px #888888;
+  background: linear-gradient(to left, #0000ff 35%, #00ffff 100%);
+}
+.row{
+  font-family: 'Charis SIL', serif;
+}
